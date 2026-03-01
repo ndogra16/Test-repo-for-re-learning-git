@@ -8,7 +8,7 @@ public class HelloController {
 
     @GetMapping("/")
     public String hello() {
-        String printString = "hello world sixth commit in main branch";
+        String printString = "hello world seventh commit in main branch dirctly in github";
         System.out.println(printString);
         return printString;
     }
